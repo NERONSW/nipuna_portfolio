@@ -23,11 +23,9 @@ export default function Sidebar() {
   return (
     <div
       // className="max-w-[296px] px-6 pt-[18px] pb-[28px] flex-col h-screen  bg-red-300 hidden lg:block lg:duration-300"
-      className={`max-w-[500px] transition-all duration-300 ease-in-out transform p-2
+      className={`max-w-[400px] transition-all duration-300 ease-in-out transform p-2
         ${
-          isLargeScreen
-            ? "opacity-100 scale-100 block"
-            : "opacity-0 scale-95 hidden"
+          isLargeScreen ? "opacity-100 scale-100 block" : "opacity-0 scale-95 "
         }`}
     >
       <div className="flex flex-col gap-4 items-center justify-center ">
